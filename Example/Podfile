@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SagarGaneshLibrary_Example' do
+  pod 'SagarGaneshLibrary', :path => '../'
+
+  target 'SagarGaneshLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
