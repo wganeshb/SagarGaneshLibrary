@@ -1,0 +1,6 @@
+framework module Pods_SagarGaneshLibrary_Example {
+  umbrella header "Pods-SagarGaneshLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

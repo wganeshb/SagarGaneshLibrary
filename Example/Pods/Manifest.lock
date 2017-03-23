@@ -1,0 +1,16 @@
+PODS:
+  - SagarGaneshLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SagarGaneshLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SagarGaneshLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SagarGaneshLibrary: '074701393110a4d26cb7e147c360365afa2ae87d'
+
+PODFILE CHECKSUM: d1a758f38ad00bcd92dd790c395b722589934a98
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module SagarGaneshLibrary {
+  umbrella header "SagarGaneshLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
