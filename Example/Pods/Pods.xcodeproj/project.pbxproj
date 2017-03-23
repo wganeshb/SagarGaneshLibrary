@@ -10,7 +10,7 @@
 		0BBD9C3937538F066CC6E685A51E8885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		11697BED2ACF1EE416E500FF97BBB28D /* Pods-SagarGaneshLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2638952CBA3F8430533061C12DA7B0ED /* Pods-SagarGaneshLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E046C517E3AC6A3F6512FC2C77DDF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5FA1C53983EB560960A447A7BD4AD6D3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255E3E186CC6EF3CFA4DDF39DD8A09 /* ReplaceMe.swift */; };
+		5FA1C53983EB560960A447A7BD4AD6D3 /* SagarGaneshLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255E3E186CC6EF3CFA4DDF39DD8A09 /* SagarGaneshLibrary.swift */; };
 		856782BFCB066AF8B5B7721ADC5DE846 /* Pods-SagarGaneshLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B40EDB6E596DAF680738F943CAA3E657 /* Pods-SagarGaneshLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93EDE23A943B798FE1DA21293DE6D093 /* SagarGaneshLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFC4B411047199751D3A309528FE96 /* SagarGaneshLibrary-dummy.m */; };
 		9FB42921DB0BD331E710C66040A9DB25 /* SagarGaneshLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C258DB713F67111942D17C57E401A06 /* SagarGaneshLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,8 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D31A9A31E087F50F6B1B305FEE1F0CD /* Pods-SagarGaneshLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SagarGaneshLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		0E436046991E206ACD229AEED20014F9 /* Pods_SagarGaneshLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SagarGaneshLibrary_Example.framework; path = "Pods-SagarGaneshLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D31A9A31E087F50F6B1B305FEE1F0CD /* Pods-SagarGaneshLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SagarGaneshLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		0E436046991E206ACD229AEED20014F9 /* Pods_SagarGaneshLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagarGaneshLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EB552A20173F21B0DDA107CB96D14B /* SagarGaneshLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SagarGaneshLibrary.xcconfig; sourceTree = "<group>"; };
 		181794DEF2A21EAEE2062544F9405A00 /* Pods-SagarGaneshLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SagarGaneshLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		20ABFA701A704F28545E28788D66A6D6 /* Pods-SagarGaneshLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SagarGaneshLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,11 +39,11 @@
 		2638952CBA3F8430533061C12DA7B0ED /* Pods-SagarGaneshLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SagarGaneshLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3C21FD147D6E1B6AAB59EFCCD6FA9E32 /* Pods-SagarGaneshLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SagarGaneshLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41399D6DB1877F29BAC13926BF5FA125 /* Pods-SagarGaneshLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SagarGaneshLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		43F80A29B1CD398AC106ADAB3FEFE492 /* Pods-SagarGaneshLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SagarGaneshLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		43F80A29B1CD398AC106ADAB3FEFE492 /* Pods-SagarGaneshLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SagarGaneshLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		44F9EA3A5FA0ACF48728F21CB926A650 /* Pods-SagarGaneshLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SagarGaneshLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		4B8E26B53847A626EAD9DA1FDA6CCEB9 /* SagarGaneshLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SagarGaneshLibrary.framework; path = SagarGaneshLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E26B53847A626EAD9DA1FDA6CCEB9 /* SagarGaneshLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SagarGaneshLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBFC4B411047199751D3A309528FE96 /* SagarGaneshLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SagarGaneshLibrary-dummy.m"; sourceTree = "<group>"; };
-		52255E3E186CC6EF3CFA4DDF39DD8A09 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		52255E3E186CC6EF3CFA4DDF39DD8A09 /* SagarGaneshLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SagarGaneshLibrary.swift; sourceTree = "<group>"; };
 		5CFCA80DD5DBBE394D6E0793EF82F001 /* Pods-SagarGaneshLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SagarGaneshLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5D444ADE0CCC9389C90FD64C2447A928 /* Pods-SagarGaneshLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SagarGaneshLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		646D2FE0D31187E857BF79F25F3FABF4 /* Pods-SagarGaneshLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SagarGaneshLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		706CF309D555937A3268FEA5E9EC4E21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7283F0E5A91BFAFA3BC9447C5DD1C8C7 /* Pods-SagarGaneshLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SagarGaneshLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		7C4E1BCA73F639F9CA4119C54DDE2F35 /* Pods-SagarGaneshLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SagarGaneshLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A28CB388EFA7C652A4D76A41CC82460D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3647B3D57C9C1D076B573E43DCBCF15 /* Pods_SagarGaneshLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SagarGaneshLibrary_Tests.framework; path = "Pods-SagarGaneshLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3647B3D57C9C1D076B573E43DCBCF15 /* Pods_SagarGaneshLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagarGaneshLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C5EB194BF52B6AC8CE4858C5499F98 /* Pods-SagarGaneshLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SagarGaneshLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0873739997688048BF59C4BB90C9F80 /* SagarGaneshLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SagarGaneshLibrary-prefix.pch"; sourceTree = "<group>"; };
 		B3FA4054BC7E095A11530CBCF7102B6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		B56A85B2BD98AD4E5DCA7B4D0325E4CF /* Pods-SagarGaneshLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SagarGaneshLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7617B9445CDCFDC588CCC798ABD8130 /* Pods-SagarGaneshLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SagarGaneshLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EC2A7B61CACCF25BF53E65F9895C85CA /* SagarGaneshLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SagarGaneshLibrary.modulemap; sourceTree = "<group>"; };
+		EC2A7B61CACCF25BF53E65F9895C85CA /* SagarGaneshLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SagarGaneshLibrary.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,6 @@
 			children = (
 				FB514E26EDE243C2A8C23CADA1B04C60 /* Classes */,
 			);
-			name = SagarGaneshLibrary;
 			path = SagarGaneshLibrary;
 			sourceTree = "<group>";
 		};
@@ -218,9 +217,8 @@
 		FB514E26EDE243C2A8C23CADA1B04C60 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				52255E3E186CC6EF3CFA4DDF39DD8A09 /* ReplaceMe.swift */,
+				52255E3E186CC6EF3CFA4DDF39DD8A09 /* SagarGaneshLibrary.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -355,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FA1C53983EB560960A447A7BD4AD6D3 /* ReplaceMe.swift in Sources */,
+				5FA1C53983EB560960A447A7BD4AD6D3 /* SagarGaneshLibrary.swift in Sources */,
 				93EDE23A943B798FE1DA21293DE6D093 /* SagarGaneshLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
